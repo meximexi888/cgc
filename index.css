@@ -223,6 +223,64 @@ body:before {
 .text_center {
     text-align: center
 }
+
+
+
+@media screen and (max-width: 750px) {
+ 
+    .z_gcg_nav_title a {
+        display: none;
+    }
+ 
+    .max1098, .max1098-inner .zeact_navbar_inner {
+        padding: 0px 8px;
+    }
+
+    .z_balance .zeact_button {
+        margin-top: 2px; 
+    }
+
+    .prize_pool_number {
+        margin: 0px !important;
+        font-size: 20px !important;
+    }
+
+    .prize_pool_number span {
+        padding: 3px 3px !important;
+        margin: 0px 1px !important;
+        border-radius: 4px !important;
+    }
+ 
+    .prize_pool_sub {
+        width: 100% !important;
+    }
+
+    .z_lotter_block {
+        width: 100% !important;
+    }
+
+    .z_lotter_block .zeact_col_20 {
+        display: none;
+    }
+
+    .z_lotter_block .zeact_col_40 {
+        width: 100%;
+    }
+
+    .z_page_block .z_page_block {
+        margin-bottom: 20px;
+    }
+
+    
+    #sidebar {
+        width: 30%;
+    }
+    #sidebar .widget {
+        padding: 8% 7%;
+        margin-bottom: 10px;
+    }
+ 
+}
 .zeact_buylist_sub_nav .zy_sub_nav {
     padding: 4px 16px 8px;
     margin-bottom: 2px
